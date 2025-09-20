@@ -1,6 +1,6 @@
 {
   "name": "@cvtool/docs",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "license": "MIT",
   "description": "",
   "scripts": {
@@ -12,12 +12,12 @@
     "pack/*"
   ],
   "dependencies": {
-    "@cvtool/design": "^0.0.26",
-    "@cvtool/echarts": "^0.0.26",
-    "@cvtool/element-plus": "^0.0.26",
-    "@cvtool/engine": "^0.0.26",
-    "@cvtool/three": "^0.0.26",
-    "@cvtool/vue": "^0.0.26",
+    "@cvtool/design": "^0.0.27",
+    "@cvtool/echarts": "^0.0.27",
+    "@cvtool/element-plus": "^0.0.27",
+    "@cvtool/engine": "^0.0.27",
+    "@cvtool/three": "^0.0.27",
+    "@cvtool/vue": "^0.0.27",
     "highlight.js": "^11.10.0",
     "typescript": "^5.8.2",
     "vue": "^3.5.7",

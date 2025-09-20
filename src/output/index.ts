@@ -7,19 +7,19 @@ const routes: RouteRecordRaw[] = [
         name: 'design',
         path: '/design',
         children: design,
-        redirect:'/4a11490d-2258-43b6-9470-222b10b62926',
+        redirect:'/45ba0225-82c3-413e-a5e7-a1f006d18ba6',
     },
     {
         name: 'engine',
         path: '/engine',
         children: engine,
-        redirect:'/d3099193-bc6d-427f-a6c2-874f84b527b7',
+        redirect:'/e67f9442-3c09-411c-8af9-6ea678893705',
     },
     {
         name: 'cli',
         path: '/cli',
         children: cli,
-        redirect:'/8c47c9db-b9de-4c65-a92d-71758423c0e1',
+        redirect:'/aed21238-8186-488c-9faf-56b2ccf0f090',
     },
 ]
 export default routes
