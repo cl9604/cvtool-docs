@@ -67,7 +67,7 @@
         </p>
     </div>
     <div class="doc-card">
-        <img style="width: 100%;" src="/cvtool/static/editor.png" alt="编辑器">
+        <img style="width: 100%;" src="cvtool/static/editor.png" alt="编辑器">
         </img>
     </div>
 

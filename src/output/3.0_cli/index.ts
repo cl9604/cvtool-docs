@@ -1,14 +1,14 @@
 import { RouteRecordRaw } from 'vue-router'
 const routes: RouteRecordRaw[] = [
 {
-    name:'/aed21238-8186-488c-9faf-56b2ccf0f090',
-    path:'/aed21238-8186-488c-9faf-56b2ccf0f090',
+    name:'/50a9626b-d3aa-43af-90e9-fd532d4bb42e',
+    path:'/50a9626b-d3aa-43af-90e9-fd532d4bb42e',
     component: ()=>import('./简介.vue'),
     meta:{"name":"简介","package":"cli"},
 },
 {
-    name:'/dd11dd9a-45a7-4398-b6b2-efc83d3f7243',
-    path:'/dd11dd9a-45a7-4398-b6b2-efc83d3f7243',
+    name:'/e5a824fb-fe27-4a5b-9dce-616f53b274a8',
+    path:'/e5a824fb-fe27-4a5b-9dce-616f53b274a8',
     component: ()=>import('./快速上手.vue'),
     meta:{"name":"快速上手","package":"cli"},
 },

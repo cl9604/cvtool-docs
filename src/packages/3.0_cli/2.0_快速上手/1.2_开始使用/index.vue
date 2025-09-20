@@ -6,6 +6,6 @@
     <p>访问终端中显示的服务地址即可使用</p>
   </div>
   <div class="doc-card">
-    <img style="width: 100%;" src="/cvtool/static/editor.png" alt="编辑器"></img>
+    <img style="width: 100%;" src="cvtool/static/editor.png" alt="编辑器"></img>
   </div>
 </template>
