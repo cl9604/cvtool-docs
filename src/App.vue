@@ -45,6 +45,10 @@ body,
   .c(var(--cv-font-color));
   .t_s;
 
+  a {
+    .c(var(--cv-font-color));
+  }
+
   .doc-header {
     .w;
     .h(@header-height);
