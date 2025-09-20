@@ -3,7 +3,7 @@
     <div class="doc-header">
       <div class="doc-logo">
         <img class="doc-logo" @click="router.push('/')"
-          :src="`${PUBLIC_PATH ? '/' + PUBLIC_PATH : ''}/logo/透明背景LOGO.png`" alt="logo">
+          :src="`logo/透明背景LOGO.png`" alt="logo">
         <span class="doc-package">{{ currentRoute?.meta?.package }}</span>
       </div>
     </div>
@@ -16,7 +16,6 @@
 <script lang="ts" setup>
 import { useRouter, useRoute } from 'vue-router';
 
-const PUBLIC_PATH = process.env.VUE_APP_PUBLIC_PATH
 const router = useRouter()
 const currentRoute = useRoute()
 </script>

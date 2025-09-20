@@ -76,7 +76,6 @@ import { cvScope_2 } from './快速上手'
 import { onBeforeUnmount, onMounted } from 'vue';
 import { Asset, Engine, ServiceSchedulerDescriptor } from '@cvtool/engine';
 import '@cvtool/three';
-Asset.baseUrl = process.env.VUE_APP_PUBLIC_PATH;
 const url = 'cvtool/快速上手/map.scene.json';
 Asset.load(url);
 const engine = new Engine();
