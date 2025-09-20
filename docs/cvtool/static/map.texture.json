@@ -1,0 +1,34 @@
+{
+    "uuid": "45e1004f-1715-409e-b024-cba918471bbb",
+    "children": [],
+    "type": "Texture",
+    "name": "",
+    "dataset": "",
+    "variables": {},
+    "events": [],
+    "selectable": true,
+    "prefab": "",
+    "url": "cvtool/static/map.jpg",
+    "mapping": 2,
+    "wrapS": 2,
+    "wrapT": 2,
+    "format": 7,
+    "ftype": 1,
+    "offset": {
+        "x": 0,
+        "y": 0
+    },
+    "repeat": {
+        "x": 1,
+        "y": 1
+    },
+    "center": {
+        "x": 0,
+        "y": 0
+    },
+    "rotation": 0,
+    "generateMipmaps": true,
+    "premultiplyAlpha": false,
+    "flipY": true,
+    "colorSpace": 2
+}

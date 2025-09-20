@@ -1,0 +1,152 @@
+{
+    "uuid": "bfca799e-b5e0-4cb8-8abd-8d835533eb90111aa",
+    "children": [
+        {
+            "uuid": "2750aeec-cd4a-48ce-95a8-b808d8d88daa",
+            "children": [
+                {
+                    "uuid": "a6504f4a-c88d-42f2-bbd5-d205dfe70f18",
+                    "children": [],
+                    "type": "Mesh",
+                    "name": "map",
+                    "dataset": "",
+                    "variables": {},
+                    "events": [],
+                    "selectable": true,
+                    "prefab": false,
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "order": "XYZ"
+                    },
+                    "layer": 0,
+                    "visible": true,
+                    "renderOrder": 0,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "material": "cvtool/static/map.material.json",
+                    "geometry": "cvtool/static/Extrude.geometry.json"
+                },
+                {
+                    "uuid": "1fb8a6a0-1acd-45c5-8f32-2a6d48f0ea8c",
+                    "children": [],
+                    "type": "OrbitController",
+                    "name": "",
+                    "dataset": "",
+                    "variables": {},
+                    "events": [],
+                    "selectable": true,
+                    "prefab": false,
+                    "enabled": true,
+                    "camera": "6650cd80-873b-4b9d-957d-46977d2fd0b4",
+                    "enablePan": false,
+                    "panSpeed": 1,
+                    "screenSpacePanning": true,
+                    "enableZoom": true,
+                    "minDistance": 0,
+                    "maxDistance": "__cv_infinity+__",
+                    "enableRotate": true,
+                    "minPolarAngle": 0,
+                    "maxPolarAngle": 6.283185307179586,
+                    "minAzimuthAngle": "__cv_infinity-__",
+                    "maxAzimuthAngle": "__cv_infinity+__",
+                    "enableDamping": false,
+                    "dampingFactor": 0.05,
+                    "autoRotate": false,
+                    "autoRotateSpeed": 2,
+                    "minZoom": 0,
+                    "maxZoom": "__cv_infinity+__",
+                    "rotateSpeed": 1,
+                    "zoomSpeed": 1,
+                    "target": "",
+                    "event": ""
+                }
+            ],
+            "type": "SceneService",
+            "name": "scene",
+            "dataset": "",
+            "variables": {},
+            "events": [],
+            "selectable": true,
+            "prefab": false,
+            "cursor": "default",
+            "display": "block",
+            "visible": true,
+            "width": 100,
+            "wUnit": "%",
+            "calcWidth": 0,
+            "height": 100,
+            "hUnit": "%",
+            "calcHeight": 0,
+            "margin": "",
+            "position": "absolute",
+            "x": 0,
+            "xAxis": "left",
+            "xUnit": "px",
+            "y": 0,
+            "yAxis": "top",
+            "yUnit": "px",
+            "zIndex": 1,
+            "shadowMap": false,
+            "shadowMapType": 0,
+            "autoUpdateShadowMap": false
+        },
+        {
+            "uuid": "6650cd80-873b-4b9d-957d-46977d2fd0b4",
+            "children": [],
+            "type": "PerspectiveCamera",
+            "name": "",
+            "dataset": "",
+            "variables": {},
+            "events": [],
+            "selectable": true,
+            "prefab": false,
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 100
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "order": "XYZ"
+            },
+            "layer": 0,
+            "visible": true,
+            "renderOrder": 0,
+            "castShadow": false,
+            "receiveShadow": false,
+            "lookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "fov": 45
+        }
+    ],
+    "type": "ServiceScheduler",
+    "name": "ServiceScheduler",
+    "dataset": "",
+    "variables": {},
+    "events": [],
+    "selectable": true,
+    "prefab": false,
+    "camera": "6650cd80-873b-4b9d-957d-46977d2fd0b4"
+}

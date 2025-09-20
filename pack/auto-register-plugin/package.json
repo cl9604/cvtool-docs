@@ -1,0 +1,11 @@
+{
+  "name": "@pack/auto-register-plugin",
+  "version": "0.0.26",
+  "description": "",
+  "main": "./index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "htmlparser2": "^6.1.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "uuid": "46e27ae4-3ff1-4bcd-a486-c03b5cb492d8",
+    "children": [],
+    "type": "ExtrudeGeometry",
+    "name": "",
+    "selectable": true,
+    "autoUpdate": false,
+    "shapes": "cvtool/static/map.json",
+    "generator": "",
+    "flattenUVsToPlane": true,
+    "curveSegments": 1,
+    "steps": 0,
+    "depth": 1,
+    "bevelEnabled": true,
+    "bevelThickness": 0,
+    "bevelSize": 0,
+    "bevelOffset": 0,
+    "bevelSegments": 1
+}
