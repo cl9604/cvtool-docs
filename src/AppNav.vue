@@ -39,7 +39,6 @@ const watchRoute = (cur: RouteLocationNormalizedLoaded) => {
 watch(currentRoute, watchRoute, { immediate: true })
 
 const topPadding = `50,20,20`
-
 </script>
 
 <style lang="less" scoped>

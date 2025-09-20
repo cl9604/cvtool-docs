@@ -10,12 +10,10 @@ const index = {
     template: 'public/index.html',
 }
 
-const publicPath = process.argv[2] === 'build' ? './cvtool-docs/' : './'
-
 module.exports = defineConfig({
     pages: { index },
     outputDir: 'docs',
-    publicPath,
+    publicPath: './',
     transpileDependencies: true,
     productionSourceMap: isWatch,
     configureWebpack: {
